@@ -11,8 +11,8 @@
     "react-dom": "^16.13.0"
   },
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node api.js && next",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start"
   }
 }
