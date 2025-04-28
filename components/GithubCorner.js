@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 // Thanks @twholman!
 
 export default function GitHubCorner() {
@@ -51,4 +55,4 @@ export default function GitHubCorner() {
     }`}</style>
     </a>
   );
-}
+};
